@@ -16,7 +16,7 @@ export function KissMarks({ count = 4, opacity = 0.12 }) {
       {positions.slice(0, count).map((pos, i) => (
         <img
           key={i}
-          src="/assets/kiss-mark.png"
+          src="./assets/kiss-mark.png"
           alt=""
           style={{
             position: 'absolute',
@@ -174,7 +174,7 @@ export function NextButton({ onClick, label = 'Next →' }) {
 }
 
 /* ===== SCATTERED PHOTO POLAROIDS ===== */
-const ALL_PHOTOS = Array.from({ length: 26 }, (_, i) => `/assets/photo${i + 1}.jpeg`);
+const ALL_PHOTOS = Array.from({ length: 26 }, (_, i) => `./assets/photo${i + 1}.jpeg`);
 
 const SCATTER_POSITIONS = [
   { top: '2%',  left: '-1%',   rotate: -9,  w: 120 },

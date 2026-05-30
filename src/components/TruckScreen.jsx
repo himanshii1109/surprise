@@ -247,7 +247,7 @@ export default function TruckScreen({ onGiftClick, onNext }) {
                     </div>
                   </div>
                   {/* Pink Bow overlay */}
-                  <img src="/assets/red-bow.png" alt="" style={{ position: 'absolute', top: 20, left: '50%', transform: 'translateX(-50%)', width: 38, zIndex: 3 }} />
+                  <img src="./assets/red-bow.png" alt="" style={{ position: 'absolute', top: 20, left: '50%', transform: 'translateX(-50%)', width: 38, zIndex: 3 }} />
                 </div>
 
                 {/* White Top half */}

@@ -30,7 +30,7 @@ export default function WishScreen({ onNext, onBack }) {
       ))}
 
       {/* Red bow */}
-      <img src="/assets/red-bow.png" alt="" style={{ position: 'absolute', top: '5%', right: '10%', width: 45, opacity: 0.15, transform: 'rotate(10deg)', pointerEvents: 'none' }} />
+      <img src="./assets/red-bow.png" alt="" style={{ position: 'absolute', top: '5%', right: '10%', width: 45, opacity: 0.15, transform: 'rotate(10deg)', pointerEvents: 'none' }} />
 
       <div style={{ zIndex: 2, textAlign: 'center', padding: '0 1rem' }}>
         <motion.h1

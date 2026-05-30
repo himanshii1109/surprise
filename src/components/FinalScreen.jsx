@@ -57,7 +57,7 @@ export default function FinalScreen() {
       >
         <div className="tape-strip" style={{ top: -12, left: '50%', transform: 'translateX(-50%) rotate(2deg)', background: 'rgba(255,255,255,0.45)', width: 65, height: 18 }} />
         <img
-          src="/assets/couple-flowers.jpeg"
+          src="./assets/couple-flowers.jpeg"
           alt="Us Forever"
           style={{ width: '100%', height: 210, objectFit: 'cover', borderRadius: 2 }}
         />

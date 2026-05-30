@@ -36,7 +36,7 @@ export function Question1Screen({ onYes, onNo, onBack }) {
         >
           <div className="tape-strip" style={{ top: -10, left: '50%', transform: 'translateX(-50%) rotate(3deg)', background: 'rgba(255,255,255,0.45)', width: 70, height: 20 }} />
           <img
-            src="/assets/couple-flowers.jpeg"
+            src="./assets/couple-flowers.jpeg"
             alt="Us"
             style={{ width: '100%', height: 320, objectFit: 'cover', borderRadius: 2, display: 'block' }}
           />

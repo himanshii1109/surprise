@@ -84,7 +84,7 @@ export function Gift1Letter({ onBack }) {
           <div className="polaroid" style={{ width: '100%', maxWidth: '260px', padding: '12px 12px 32px', background: '#FFF', boxShadow: '0 10px 30px rgba(0,0,0,0.2)', border: '1px solid #EBE4D8', transform: 'rotate(-4deg)' }}>
             <div className="tape-strip" style={{ top: -12, left: '50%', transform: 'translateX(-50%) rotate(3deg)', background: 'rgba(255,255,255,0.45)', width: 65, height: 18 }} />
             <img
-              src="/assets/couple-photo.jpg"
+              src="./assets/couple-photo.jpg"
               alt="Sweet Memories"
               style={{ width: '100%', height: 260, objectFit: 'cover', borderRadius: '2px', display: 'block' }}
             />
@@ -134,8 +134,8 @@ export function Gift2Screen({ onBack }) {
 
   const [shuffledPhotos] = useState(() => {
     const pool = [
-      '/assets/couple-flowers.jpeg',
-      ...Array.from({ length: 26 }, (_, i) => `/assets/photo${i + 1}.jpeg`)
+      './assets/couple-flowers.jpeg',
+      ...Array.from({ length: 26 }, (_, i) => `./assets/photo${i + 1}.jpeg`)
     ];
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -472,9 +472,9 @@ export function Gift3Screen({ onBack }) {
 /* ===== SPOTIFY MUSIC PLAYER CARD (Scrapbook Style) ===== */
 export function SpotifyPlayerCard() {
   const allPhotos = [
-    '/assets/couple-photo.jpg',
-    '/assets/couple-flowers.jpeg',
-    ...Array.from({ length: 26 }, (_, i) => `/assets/photo${i + 1}.jpeg`)
+    './assets/couple-photo.jpg',
+    './assets/couple-flowers.jpeg',
+    ...Array.from({ length: 26 }, (_, i) => `./assets/photo${i + 1}.jpeg`)
   ];
   
   const audioRef = useRef(null);
@@ -568,7 +568,7 @@ export function SpotifyPlayerCard() {
     >
       <audio 
         ref={audioRef} 
-        src="/assets/song.mp3/Thinking Of You - AP Dhillon.mp3" 
+        src="./assets/song.mp3/Thinking Of You - AP Dhillon.mp3" 
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onEnded={() => setIsPlaying(false)}
@@ -631,7 +631,7 @@ export function SpotifyPlayerCard() {
 
         {/* Sticker: Red Bow */}
         <img
-          src="/assets/red-bow.png"
+          src="./assets/red-bow.png"
           alt=""
           style={{
             position: 'absolute',

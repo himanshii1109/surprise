@@ -69,7 +69,7 @@ export default function LockScreen({ onUnlock }) {
         >
           <div className="tape-strip" style={{ top: -10, left: '50%', transform: 'translateX(-50%) rotate(2deg)', background: 'rgba(255,255,255,0.45)', width: 50, height: 16 }} />
           <img
-            src="/assets/couple-photo.jpg"
+            src="./assets/couple-photo.jpg"
             alt="Us"
             style={{ width: '100%', height: 280, objectFit: 'cover', borderRadius: 2, background: 'var(--soft-cream)', display: 'block' }}
           />
